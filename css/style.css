@@ -1,0 +1,186 @@
+#validbot_setup {
+	position: relative;
+	overflow: auto;
+	margin: 16px 0;
+	padding: 15px 10px 15px 10px;
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	background: #fff;
+	font-size: 13px;
+	line-height: 1.7;
+	max-width: 1500px;
+}
+
+#validbot_setup h2 {
+	margin: 0;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+#validbot_setup p {
+	font-size: 16px;
+	margin: 0;
+	color: #555;
+}
+#validbot_setup p b {
+	color: #000;
+}
+  
+#validbot_admin .vb_columns {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+#validbot_admin .vb_column {
+	flex: 1 1 47%;
+	min-width: 300px;
+	padding-right: 3%;
+}
+
+#validbot_admin .vb_greenbox {
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border: 10px solid #208738;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+#validbot_admin .vb_greenbox h4 {
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	margin: 5px 20px 30px 20px;
+}
+
+#validbot_admin .vb_icon {
+	float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 7px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#validbot_admin .vb_ml-115 {
+	margin-left: 115px;
+}
+#validbot_admin .vb_report_head {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+#validbot_admin .vb_report_head_grade {
+	flex: 0 0 65px;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+}
+#validbot_admin .vb_report_head_grade .vb_grade {
+	display: inline-block;
+	text-align: center;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+}
+#validbot_admin .vb_results .vb_grade {
+	display: inline-block;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 5px;
+}
+#validbot_admin .vb_grade_a {
+	background-color: #1ca204;
+	border: 2px solid #077314;
+	color: #fff;
+}
+#validbot_admin .vb_grade_b {
+	background-color: #98da5b;
+	border: 2px solid #52862a;
+	color: #000;
+}
+#validbot_admin .vb_grade_c {
+	background-color: #d2da5b;
+	border: 2px solid #7c862a;
+	color: #000;
+}
+#validbot_admin .vb_grade_d {
+	background-color: #daa75b;
+	border: 2px solid #866a2a;
+	color: #000;
+}
+#validbot_admin .vb_grade_f {
+	background-color: #b10303;
+	border: 2px solid #730707;
+	color: #fff;
+}
+#validbot_admin .vb_grade_u {
+	background-color: #aaa;
+	border: 2px solid #333;
+	color: #000;
+}
+
+#validbot_admin .vb_report_head_txt {
+	flex: 1 1 auto;
+	height: 60px;
+	line-height: 24px;
+}
+#validbot_admin .vb_report_head_again {
+	flex: 1 1 100px;
+	text-align: right;
+	line-height: 60px;
+	height: 60px;
+}
+
+#validbot_admin .vb_error {
+	background-color: #fee;
+	border:  2px solid #900;
+	padding:  10px;
+	border-radius: 5px;
+}
+#validbot_admin .vb_notice {
+	background-color: #ffe;
+	border:  2px solid #990;
+	padding:  10px;
+	border-radius: 5px;
+}
+
+#validbot_admin .vb_test_indicator {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+#validbot_admin .widefat td {
+	vertical-align: middle;
+}
+#validbot_admin a.vb_dimlink {
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+#validbot_admin a.vb_dimlink:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+#validbot_admin .vb_subscribe {
+	background-color: #208738;
+	border-color: #208738;
+}
+#validbot_admin .vb_subscribe:hover {
+	background-color: #126c27;
+	border-color: #126c27;
+}
+#validbot_admin .vb_list li {
+	line-height: 25px;
+}
+#validbot_admin .vb_list img {
+	vertical-align: text-bottom;
+	margin-right: 5px;
+}
